@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="resouces.html">Resources</a>
+    <div class="login-container">
+      <form action="contact.html">    
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+      <section class="container" style="margin-top:2cm;">
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="images/library.jpg" alt="Avatar" class="avatar">
+        </div>
+      
+        <div>
+            <label for="psw"><b>Library users</b></label> <br>
+            <select name="" id="users" style="border: none;font-size:15px;">
+            <option value="">Student</option>
+            <option value="">Researcher</option>
+            <option value="">Faculty</option>
+            </select>  <br>
+            <label for=""><b>Country</b></label>
+            <input type="text" placeholder="Your country name">      
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+        <div style="width: 100%;">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#" style="text-decoration: none;">password?</a></span>
+        </div>
+      </form>
+      </section>
+      <h1 style="text-align: center;font-size:40px;margin-top:2cm;color: #260202;font-weight:boldr;">Meet Our Librerians</h1> 
+      <section class="librarians">   
+      <div class="card">
+              <img src="Images/sokiri.jpg" alt="Sokiri">
+              <div>
+                <h2>Sokiri Ronald <br> Sankara</h2>
+                <p class="title">Physical book librerian</p>
+                <p>sokirironaldsankara@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+            <div class="card">
+              <img src="Images/obunnya.jpg" alt="Akello">
+              <div>
+                <h2>Akello Esther <br> Obunnya</h2>
+                <p class="title">Library coordinator</p>
+                <p>estherobunnyaakello@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+          </div>
+          <div class="card">
+            <img src="Images/mutyaba.jpg" alt="Mutyaba">
+            <div>
+              <h2>Mutyaba Edwin <br> Muwanguzi</h2>
+              <p class="title">Online books librerian</p>
+              <p>muwanguziedwinmutyaba@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+      </section>
+      <div class="reading">
+        <div class="dropdown">
+  <button class="dropbtn" style="background: #260202;"> <a href="" style="color:#fdfff8 ;">Return Books</a></button>
+  <div class="dropdown-content">
+    <p>Book once taken should be returned in proper condition</p>
+    <p>Book should be returned before the initial date</p>
+    <p>Once the book is lost the fine will be issued</p>
+    <p>Report incase the book is lost for further followup</p>
+    <p>Follow all library rules and regulations for easy access to our services</p>
+  </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" style="background: #04AA6D;"> <a href="" style="color: #260202;">Borrow Books</a></button>
+    <div class="dropdown-content">
+      <p>A library user can either borrow online or physical book.</p>
+      <p>No library user is allowed to borrow the same book from physical or online</p>
+      <p>To borrow new book, a library user must have returned the previously borrowed book</p>
+      <p>A library user to borrow a book must be a registerd library member </p>
+      <p>Any one to borrow a book must present the original id for verification</p>
+      <p>Follow all library rules and regulations for easy access to our services</p>
+    </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn" style="background:#260202;"> <a href="Available books list.pdf" style="color:#fdfff8">More Books</a></button>
+      <div class="dropdown-content">
+        <p>Regulary check your emails for new stocked books both online and physical</p>
+        <p>A researcher can borrow a book or buy a book at a given price</p>
+        <p>Mubs students are free to access all library books as long as they are verified</p>
+        <p>For any one to access our libray services must be from East Africa</p>
+        <p>Follow all library rules and regulations for easy access to our services</p>
+      </div>
+    </div>
+    </div>
+      <section class="footer">
+<div class="icon-bar">
+          <!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+<h1 style="color:  #04AA6D;">Reach us via</h1> <br>
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+  <a href="#" class="phone"><i class="fa fa-phone"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
+<div class="services">
+  <h1 style="color:  #04AA6D;">our services</h1>
+  <ul>
+    <li>Lending and access services</li>
+    <li>Reserch and reference services</li>
+    <li>Programms and workshops</li>
+    <li>Technology services</li>
+    <li>Community spaces and resources</li>
+  </ul>
+</div>
+<p style="text-align: end;color:white;margin-top:2cm;margin-left:10.5cm;">&copy All rights reserved</p>
+    </section>
+    </body>
+</html>
